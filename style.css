@@ -1,0 +1,138 @@
+body {
+  background-color: #f6f6f6;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.titulo {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.subtitulo {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.fondo-imagen {
+  background-image: url("imagenes_integrador_front (3)/ba1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.texto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.rounded-lg {
+  border-radius: 0;
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.lead {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #29b6f6;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #29b6f6;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lead {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.img-fluid {
+  margin-bottom: 10px;
+}
+
+.h3 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.text-success {
+  color: #19be6b;
+}
